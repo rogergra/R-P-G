@@ -1,3 +1,5 @@
+# Pour le vrai fichier contacter le developpeur rogashack@gmail.com
+
 # Rogas-passgene
 
 Générateur de dictionnaires intelligents avec interface CLI et GUI.
@@ -41,3 +43,4 @@ python run_gui.py
 
 # Version CLI
 python run_cli.py
+
