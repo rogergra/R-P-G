@@ -1,0 +1,21 @@
+
+## 📦 Script d'installation
+
+**install_rogas.sh**
+```bash
+#!/bin/bash
+echo "Installation de Rogas-passgene..."
+echo "Création de la structure de répertoires..."
+
+# Création des répertoires
+mkdir -p data logs profiles exports tests docs
+
+echo "Installation des dépendances Python..."
+pip install -r requirements.txt
+
+echo "Donnez les permissions d'exécution..."
+chmod +x run_cli.py run_gui.py
+
+echo "Installation terminée!"
+echo "Pour lancer la version GUI: python run_gui.py"
+echo "Pour lancer la version CLI: python run_cli.py"

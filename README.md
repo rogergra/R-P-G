@@ -17,8 +17,8 @@ Générateur de dictionnaires intelligents avec interface CLI et GUI.
 1. Clonez le repository:
 
 ```bash
-git clone https://github.com/rogergra/R-P-G
-cd R-P-G
+git clone <repository-url>
+cd rogas-passgene
 
 
 
@@ -41,10 +41,3 @@ python run_gui.py
 
 # Version CLI
 python run_cli.py
-
-
-
-
-```
-
-##Developper : Rogas roger ; rogashack@gmail.com    🇹🇬
